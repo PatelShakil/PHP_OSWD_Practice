@@ -30,3 +30,12 @@ $sql = "SELECT * FROM users";
     echo $e->getMessage();
 }
 ```
+
+## Composer Commands
+- `require` ( install new package )
+- `install` ( install all dependencies in `composer.json` )
+- `update`
+- `show` ( list all packages )
+- `search`
+- `remove`
+- `global` ( add with any commands for global level )
